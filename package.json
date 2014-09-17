@@ -1,0 +1,15 @@
+{
+  "name": "testing-hybrid-apps",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "colors": "^0.6.2",
+    "mocha": "^1.21.4",
+    "wd": "^0.3.7"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test.js",
+    "postinstall": "npm install -g cordova ionic appium"
+    "createapp": "ionic start foo tabs && cd foo && ionic platform add ios && ionic build ios && ionic emulate ios"
+  }
+}
