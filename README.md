@@ -1,6 +1,6 @@
 class: title
 
-# Testing hybrid apps with [Appium](http://appium.io/)
+# Testing hybrid mobile apps with [Appium](http://appium.io/)
 
 Ben Godfrey  
 [@afternoon](http://twitter.com/afternoon)
