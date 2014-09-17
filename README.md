@@ -30,12 +30,12 @@ Ben Godfrey
 Use Ionic to create a basic app.
 
 ```bash
-$ npm install —g cordova ionic
-$ ionic start foo tabs
-$ cd foo
-$ ionic platform add ios
-$ ionic build ios
-$ ionic emulate ios
+npm install —g cordova ionic
+ionic start foo tabs
+cd foo
+ionic platform add ios
+ionic build ios
+ionic emulate ios
 ```
 
 (Use `npm run createapp` in the git repo.)
@@ -121,10 +121,11 @@ it("should have some tabs", function (done) {
 # Run tests
 
 ```bash
-$ git clone $THIS_REPO
-$ npm install
-$ appium & # or run in separate console
-$ npm test
+git clone git@github.com:afternoon/testing-hybrid-apps-with-appium.git
+cd testing-hybrid-apps-with-appium
+npm install
+appium & # or run in separate console
+npm test
 ```
 
 ---
