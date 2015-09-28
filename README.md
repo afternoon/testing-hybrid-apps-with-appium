@@ -124,6 +124,7 @@ it("should have some tabs", function (done) {
 git clone git@github.com:afternoon/testing-hybrid-apps-with-appium.git
 cd testing-hybrid-apps-with-appium
 npm install
+npm run createapp
 appium & # or run in separate console
 npm test
 ```
